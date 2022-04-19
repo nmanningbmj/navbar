@@ -26,12 +26,24 @@
           flex-direction: column;
 }
 
-.dropdown-item--title {
-  padding: 23px;
+.dropdown-item {
+  color: #747678;
+  padding: 5px 11px;
 }
 
-.dropdown-item:last-child {
-  border-bottom: 3px solid red;
+.dropdown-item--title {
+  padding: 11px;
+  color: #333333 !important;
+}
+
+.dropdown-item__section {
+  border-bottom: 1px solid #cccdcd;
+  display: block;
+  margin: auto;
+}
+
+.dropdown-item__section:last-of-type {
+  border-bottom: none;
 }
 
 .dropdown-menu {
