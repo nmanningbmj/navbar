@@ -25,18 +25,16 @@
     padding: 12px;
   }
 
-  .dropdown-item {
-    &__section {
-      &:not(:last-child) {
-        content: "";
-        border-bottom: 1px solid #cccdcd;
-        display: block;
-        margin: auto;
-      }
-      &::after {
-        content: "";
-        border-bottom: none;
-      }
+  .dropdown-section {
+    &:not(:last-child) {
+      content: "";
+      border-bottom: 1px solid #cccdcd;
+      display: block;
+      margin: auto;
+    }
+    &::after {
+      content: "";
+      border-bottom: none;
     }
   }
 

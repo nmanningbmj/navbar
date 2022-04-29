@@ -20,6 +20,7 @@
   margin: unset;
 }
 
+/* @matt: See my comment in index.html */
 .dropdown-item {
   color: #747678;
   padding: 6px 0;
@@ -28,21 +29,21 @@
     color: pink;
     background: unset;
   }
+}
 
-  &--title {
-    color: #333333 !important;
-    margin: 8px 0 2px 0;
+.dropdown-section {
+  &::after {
+    content: "";
+    border-bottom: 1px solid #cccdcd;
     display: block;
+    margin: auto;
   }
+}
 
-  &__section {
-    &::after {
-      content: "";
-      border-bottom: 1px solid #cccdcd;
-      display: block;
-      margin: auto;
-    }
-  }
+.dropdown-title {
+  color: #333333 !important;
+  margin: 8px 0 2px 0;
+  display: block;
 }
 
 .dropdown-toggle::after {
